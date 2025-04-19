@@ -1,11 +1,9 @@
-import { Button } from "@/components/ui/button"
+import AnimateButton from "@/components/ui/animate-button"
 
 const page = () => {
   return (
-    <div>
-      <Button variant="destructive" size="lg" className="m-4">
-        Default Button
-      </Button>
+    <div className="flex items-center justify-center h-screen ">
+      <AnimateButton label="Hover me" />
     </div>
   )
 }
